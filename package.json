@@ -1,0 +1,36 @@
+{
+  "name": "tido",
+  "version": "1.0.0",
+  "description": "Tiktok videos downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tido": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beastgmr4620/tido.git"
+  },
+  "author": "βεαΣτ <binhmattroi@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/beastgmr4620/tido/issues"
+  },
+  "homepage": "https://github.com/beastgmr4620/tido#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "yargs": "^16.1.0"
+  }
+}
