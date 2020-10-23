@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const context = __dirname;
+global.context = __dirname;
 
 const yargs = require('yargs');
 const path = require('path');
