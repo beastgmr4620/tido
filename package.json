@@ -1,6 +1,6 @@
 {
   "name": "tido",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiktok videos downloader",
   "main": "index.js",
   "scripts": {
