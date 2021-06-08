@@ -52,5 +52,9 @@ yargs
         commands.download
     )
     .command(['where', 'w'], 'Print save directory', {}, commands.where)
+    .option('verbose', {
+        alias: ['v'],
+        description: 'Show verbose logging',
+    })
     .strict()
     .parse(process.argv.slice(2));

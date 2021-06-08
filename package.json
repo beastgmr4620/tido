@@ -1,6 +1,6 @@
 {
   "name": "tido",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Tiktok videos downloader",
   "main": "index.js",
   "scripts": {
@@ -20,18 +20,18 @@
   },
   "homepage": "https://github.com/beastgmr4620/tido#readme",
   "devDependencies": {
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "prettier": "^2.1.2"
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "prettier": "^2.3.1"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
-    "cheerio": "^1.0.0-rc.9",
+    "chalk": "^4.1.1",
+    "cheerio": "^1.0.0-rc.10",
     "fs": "0.0.1-security",
     "has-termux-api": "^1.0.0",
     "path": "^0.12.7",
     "request": "^2.88.2",
-    "yargs": "^16.1.0"
+    "yargs": "^16.2.0"
   }
 }
